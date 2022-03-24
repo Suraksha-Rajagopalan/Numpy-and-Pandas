@@ -1,0 +1,8 @@
+import numpy
+import sys
+
+s = sys.stdin
+c = map(int,s.read().split())
+d = sys.stdout
+print numpy.zeros(c, dtype = numpy.int)
+print numpy.ones(c, dtype = numpy.int)
